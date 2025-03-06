@@ -19,3 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/greeting', [GreetController::class, 'showGreeting']);
+
+Route::get('/greeting', [GreetController::class, 'showGreeting']);
+
